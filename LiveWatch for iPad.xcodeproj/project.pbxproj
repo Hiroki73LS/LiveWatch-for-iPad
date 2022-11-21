@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		254E362436471259DFFC0BD6 /* Pods_LiveWatch_for_iPad__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA45572B18DCEB323690484 /* Pods_LiveWatch_for_iPad__iOS_.framework */; };
+		4A1BDD55292A6DAA00C64923 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BDD54292A6DAA00C64923 /* GoogleService-Info.plist */; };
+		4A1BDD56292A6DAA00C64923 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BDD54292A6DAA00C64923 /* GoogleService-Info.plist */; };
+		4A1BDD59292A6E2F00C64923 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4A1BDD58292A6E2F00C64923 /* FirebaseAnalytics */; };
 		4A6C2057292A390100135080 /* LiveWatch_for_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2047292A390000135080 /* LiveWatch_for_iPadApp.swift */; };
 		4A6C2058292A390100135080 /* LiveWatch_for_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2047292A390000135080 /* LiveWatch_for_iPadApp.swift */; };
 		4A6C2059292A390100135080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2048292A390000135080 /* ContentView.swift */; };
 		4A6C205A292A390100135080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2048292A390000135080 /* ContentView.swift */; };
 		4A6C205B292A390100135080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C2049292A390100135080 /* Assets.xcassets */; };
 		4A6C205C292A390100135080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C2049292A390100135080 /* Assets.xcassets */; };
+		4A6C206B292A397E00135080 /* StopWatchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2066292A397E00135080 /* StopWatchClass.swift */; };
+		4A6C206C292A397E00135080 /* StopWatchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2066292A397E00135080 /* StopWatchClass.swift */; };
+		4A6C206D292A397E00135080 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2067292A397E00135080 /* View.swift */; };
+		4A6C206E292A397E00135080 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2067292A397E00135080 /* View.swift */; };
+		4A6C206F292A397E00135080 /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2068292A397E00135080 /* FirstLaunch.swift */; };
+		4A6C2070292A397E00135080 /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C2068292A397E00135080 /* FirstLaunch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1BDD54292A6DAA00C64923 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4A6C2047292A390000135080 /* LiveWatch_for_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWatch_for_iPadApp.swift; sourceTree = "<group>"; };
 		4A6C2048292A390000135080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A6C2049292A390100135080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6C204E292A390100135080 /* LiveWatch for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiveWatch for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6C2054292A390100135080 /* LiveWatch for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiveWatch for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6C2056292A390100135080 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4A6C2066292A397E00135080 /* StopWatchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatchClass.swift; sourceTree = "<group>"; };
+		4A6C2067292A397E00135080 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4A6C2068292A397E00135080 /* FirstLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
+		4A6C2071292A3B1000135080 /* LiveWatch-for-iPad--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LiveWatch-for-iPad--iOS--Info.plist"; sourceTree = "<group>"; };
+		5B21D16ED61019CE2EEE6D54 /* Pods-LiveWatch for iPad (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWatch for iPad (iOS).debug.xcconfig"; path = "Target Support Files/Pods-LiveWatch for iPad (iOS)/Pods-LiveWatch for iPad (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		8205ECFB36623243C3D50645 /* Pods-LiveWatch for iPad (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWatch for iPad (iOS).release.xcconfig"; path = "Target Support Files/Pods-LiveWatch for iPad (iOS)/Pods-LiveWatch for iPad (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		8FA45572B18DCEB323690484 /* Pods_LiveWatch_for_iPad__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveWatch_for_iPad__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1BDD59292A6E2F00C64923 /* FirebaseAnalytics in Frameworks */,
+				254E362436471259DFFC0BD6 /* Pods_LiveWatch_for_iPad__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,17 +65,24 @@
 		4A6C2041292A390000135080 = {
 			isa = PBXGroup;
 			children = (
+				4A6C2071292A3B1000135080 /* LiveWatch-for-iPad--iOS--Info.plist */,
 				4A6C2046292A390000135080 /* Shared */,
 				4A6C2055292A390100135080 /* macOS */,
 				4A6C204F292A390100135080 /* Products */,
+				7C3A7FFCDE685659019FAC88 /* Pods */,
+				E5CEEAD8BD132CFBDDDBA6EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4A6C2046292A390000135080 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4A1BDD54292A6DAA00C64923 /* GoogleService-Info.plist */,
 				4A6C2047292A390000135080 /* LiveWatch_for_iPadApp.swift */,
 				4A6C2048292A390000135080 /* ContentView.swift */,
+				4A6C2068292A397E00135080 /* FirstLaunch.swift */,
+				4A6C2066292A397E00135080 /* StopWatchClass.swift */,
+				4A6C2067292A397E00135080 /* View.swift */,
 				4A6C2049292A390100135080 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +105,23 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		7C3A7FFCDE685659019FAC88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B21D16ED61019CE2EEE6D54 /* Pods-LiveWatch for iPad (iOS).debug.xcconfig */,
+				8205ECFB36623243C3D50645 /* Pods-LiveWatch for iPad (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5CEEAD8BD132CFBDDDBA6EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA45572B18DCEB323690484 /* Pods_LiveWatch_for_iPad__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +129,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A6C205F292A390100135080 /* Build configuration list for PBXNativeTarget "LiveWatch for iPad (iOS)" */;
 			buildPhases = (
+				EC27528B05B482CBE8E0AB51 /* [CP] Check Pods Manifest.lock */,
 				4A6C204A292A390100135080 /* Sources */,
 				4A6C204B292A390100135080 /* Frameworks */,
 				4A6C204C292A390100135080 /* Resources */,
+				A19C704A5AF2CA3958FD9BE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "LiveWatch for iPad (iOS)";
+			packageProductDependencies = (
+				4A1BDD58292A6E2F00C64923 /* FirebaseAnalytics */,
+			);
 			productName = "LiveWatch for iPad (iOS)";
 			productReference = 4A6C204E292A390100135080 /* LiveWatch for iPad.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 4A6C2041292A390000135080;
+			packageReferences = (
+				4A1BDD57292A6E2E00C64923 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4A6C204F292A390100135080 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6C205B292A390100135080 /* Assets.xcassets in Resources */,
+				4A1BDD55292A6DAA00C64923 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +219,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6C205C292A390100135080 /* Assets.xcassets in Resources */,
+				4A1BDD56292A6DAA00C64923 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A19C704A5AF2CA3958FD9BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveWatch for iPad (iOS)/Pods-LiveWatch for iPad (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveWatch for iPad (iOS)/Pods-LiveWatch for iPad (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveWatch for iPad (iOS)/Pods-LiveWatch for iPad (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC27528B05B482CBE8E0AB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveWatch for iPad (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A6C204A292A390100135080 /* Sources */ = {
@@ -177,6 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6C2059292A390100135080 /* ContentView.swift in Sources */,
+				4A6C206D292A397E00135080 /* View.swift in Sources */,
+				4A6C206F292A397E00135080 /* FirstLaunch.swift in Sources */,
+				4A6C206B292A397E00135080 /* StopWatchClass.swift in Sources */,
 				4A6C2057292A390100135080 /* LiveWatch_for_iPadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6C205A292A390100135080 /* ContentView.swift in Sources */,
+				4A6C206E292A397E00135080 /* View.swift in Sources */,
+				4A6C2070292A397E00135080 /* FirstLaunch.swift in Sources */,
+				4A6C206C292A397E00135080 /* StopWatchClass.swift in Sources */,
 				4A6C2058292A390100135080 /* LiveWatch_for_iPadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +406,7 @@
 		};
 		4A6C2060292A390100135080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B21D16ED61019CE2EEE6D54 /* Pods-LiveWatch for iPad (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,12 +415,16 @@
 				DEVELOPMENT_TEAM = TGPVYURU8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveWatch-for-iPad--iOS--Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "「許可」するとあなたに無関係な広告が表示されにくくなります。（許可しなくてもアプリの全ての機能は利用可能です。）";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,14 +433,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haya.LiveWatchforiPad.LiveWatch-for-iPad";
 				PRODUCT_NAME = "LiveWatch for iPad";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		4A6C2061292A390100135080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8205ECFB36623243C3D50645 /* Pods-LiveWatch for iPad (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -342,12 +453,16 @@
 				DEVELOPMENT_TEAM = TGPVYURU8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveWatch-for-iPad--iOS--Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "「許可」するとあなたに無関係な広告が表示されにくくなります。（許可しなくてもアプリの全ての機能は利用可能です。）";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,9 +471,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haya.LiveWatchforiPad.LiveWatch-for-iPad";
 				PRODUCT_NAME = "LiveWatch for iPad";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -450,6 +568,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A1BDD57292A6E2E00C64923 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A1BDD58292A6E2F00C64923 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A1BDD57292A6E2E00C64923 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A6C2042292A390000135080 /* Project object */;
 }
